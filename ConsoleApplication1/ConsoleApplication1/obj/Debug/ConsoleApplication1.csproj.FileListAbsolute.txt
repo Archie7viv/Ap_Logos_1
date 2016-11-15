@@ -6,3 +6,6 @@ D:\Ap\Programming\Lesson 0\ConsoleApplication1\ConsoleApplication1\obj\Debug\Con
 D:\Ap\Programming\MyGit\Ap_Logos_1\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
 D:\Ap\Programming\MyGit\Ap_Logos_1\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 D:\Ap\Programming\MyGit\Ap_Logos_1\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\Ap\Programming\MyGit\Ap_Logos_1\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\Ap\Programming\MyGit\Ap_Logos_1\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\Ap\Programming\MyGit\Ap_Logos_1\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
