@@ -60,7 +60,7 @@ namespace ConsoleApplication1
              Console.WriteLine("{0} = {1}{2}{3}", num, b1, b2, b3); 
             */
 
-            //  HomeWork 1 
+            //  HomeWork 1 - середній бал за 3 предмети, з клавіатури
 
             Console.WriteLine("Vvedit bal za 1 predmet");
             int x1 = int.Parse(Console.ReadLine());
@@ -78,16 +78,44 @@ namespace ConsoleApplication1
 
             Console.WriteLine("Your average is {0}", avgScore);
 
-            /* HomeWork #2
-            float p = 3.14F;
+
+            // HomeWork 2 - довжина кола, радіус з клавіатури
+             
             Console.WriteLine("Vvedit radius kola");
             int r = int.Parse(Console.ReadLine());
-            float d = (2*p*(r*r));
-            Console.WriteLine("Radius kola = " + d);
-            */
 
-        
+            double Dovjuna = GetCircleLenght(r);
 
+            Console.WriteLine("Dovjuna kola: {0}", Dovjuna);
+
+
+            //Homework 3 - Taxi
+/*
+            Console.WriteLine("Vvedit vidstan'");
+            int vidstan = int.Parse(Console.ReadLine());
+            int vukluk = 30;
+            int[] taruf = new int[3] { 5, 4, 3 };
+            Console.WriteLine("press 1 if day and 0.5 if night");
+            double x = int.Parse(Console.ReadLine());
+            double cina;
+
+            if (vidstan <= 10)
+                {
+                    cina = ((vidstan * taruf[0]) + vukluk);
+                    Console.WriteLine("Cina poizdku = " + cina);    
+                }
+            else if (vidstan > 10 & vidstan <=20)
+                {
+                    cina = ((vidstan * taruf[1]) + vukluk);
+                    Console.WriteLine("Cina poizdku = " + cina);
+                }
+            else 
+                {
+                    cina = ((vidstan * taruf[2]) + vukluk);
+                    Console.WriteLine("Cina poizdku = " + cina);
+                }
+
+    */
 
 
 
@@ -100,6 +128,14 @@ namespace ConsoleApplication1
             double avg = (sum / 3);
 
             return avg;
+        }
+
+        static double GetCircleLenght(double r)
+        {
+            double p = 3.14F;
+            double d = (2 * p * (r * r));
+
+            return d;
         }
     }
 }
