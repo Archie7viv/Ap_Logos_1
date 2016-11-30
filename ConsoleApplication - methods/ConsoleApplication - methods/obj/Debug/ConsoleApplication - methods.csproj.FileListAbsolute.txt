@@ -1,0 +1,6 @@
+D:\Ap\Programming\MyGit\ConsoleApplication - methods\ConsoleApplication - methods\bin\Debug\ConsoleApplication - methods.exe.config
+D:\Ap\Programming\MyGit\ConsoleApplication - methods\ConsoleApplication - methods\bin\Debug\ConsoleApplication - methods.exe
+D:\Ap\Programming\MyGit\ConsoleApplication - methods\ConsoleApplication - methods\bin\Debug\ConsoleApplication - methods.pdb
+D:\Ap\Programming\MyGit\ConsoleApplication - methods\ConsoleApplication - methods\obj\Debug\ConsoleApplication - methods.csprojResolveAssemblyReference.cache
+D:\Ap\Programming\MyGit\ConsoleApplication - methods\ConsoleApplication - methods\obj\Debug\ConsoleApplication - methods.exe
+D:\Ap\Programming\MyGit\ConsoleApplication - methods\ConsoleApplication - methods\obj\Debug\ConsoleApplication - methods.pdb
