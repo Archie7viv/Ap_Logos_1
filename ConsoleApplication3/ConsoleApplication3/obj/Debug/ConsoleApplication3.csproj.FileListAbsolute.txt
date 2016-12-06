@@ -4,3 +4,9 @@ D:\Ap\Programming\MyGit\ConsoleApplication3\ConsoleApplication3\bin\Debug\Consol
 D:\Ap\Programming\MyGit\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.csprojResolveAssemblyReference.cache
 D:\Ap\Programming\MyGit\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
 D:\Ap\Programming\MyGit\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb
+D:\Ap\Programming\MyGit\Ap_Logos_1\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+D:\Ap\Programming\MyGit\Ap_Logos_1\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+D:\Ap\Programming\MyGit\Ap_Logos_1\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb
+D:\Ap\Programming\MyGit\Ap_Logos_1\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.csprojResolveAssemblyReference.cache
+D:\Ap\Programming\MyGit\Ap_Logos_1\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+D:\Ap\Programming\MyGit\Ap_Logos_1\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb

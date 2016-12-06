@@ -258,9 +258,9 @@ namespace ConsoleApplication3
                 }
                 Console.WriteLine();
             }
-            
-            //arr = new int[3, 3] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
 
+            //arr = new int[3, 3] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+            
             for (int i = 0; i < size; i++)  //виводимо масив
             {
                 for (int j = 0; j < size; j++)
@@ -277,7 +277,7 @@ namespace ConsoleApplication3
             }
 
             int newSize = 1;
-            for (int i = 0; i < size - 1; i++, newSize++) // друга діагональ ??
+            for (int i = 0; i < size - 1; i++, newSize++) // друга діагональ 
             {
                 for (int j = newSize; j <= newSize; j++)
                 {
@@ -287,14 +287,13 @@ namespace ConsoleApplication3
             Console.WriteLine("Sum of main diagonal is {0} \n Sum of 2nd diagonal is {1}", sum1, sum2);
 
             int sum3 = 0;
-            for (int i = 1; i < size; i++) //сума елементів під діагоналлю
+            for (int i = 0; i < size; i++) //сума елементів під діагоналлю
             {
-                for (int j = 0; j < size - 1; j++)
+                for (int j = 0; j < size; j++)
                 {
-                    if (i != j)
+                    for (int u = 0; u < i; u++)
                     {
-                        Console.WriteLine(arr[i, j]);
-                        sum3 += arr[i, j];
+                        sum3 += arr[i,u]; //??????????????????????????
                     }
                 }
             }
@@ -302,31 +301,58 @@ namespace ConsoleApplication3
             Console.ReadLine();
             */
 
-            //Arrays - Hometask 2 - слово з клавіантури та перевірити чи воно є паліндромом
-            /*
+            //Arrays - Hometask 2 - слово з клавіантури та перевірити чи воно є паліндромом - ввести булівську змінну!!
+            
             Console.WriteLine("Enter any word");
             string word = Console.ReadLine();
+            bool isPalindrome = true;
             char[] charArray = word.ToCharArray();
             for (int i = 0; i < charArray.Length; i++)
             {
                 Console.WriteLine(charArray[i]);
             }
-            int reverse = charArray.Length -1;
-            int condition;
+            int reverse = charArray.Length - 1;
             for (int i = 0; i < reverse; i++, reverse--)
             {
-                if (charArray[i] == charArray[reverse])
+                if (charArray[i] != charArray[reverse])
                 {
-                    Console.WriteLine(word + " is a palindrom");
+                    isPalindrome = false;
+                    break;
                 }
-                else
-                {
-                    Console.WriteLine(word + " is not a palindrom!!!");
-                }
-            */
-
-
             }
+
+            if (isPalindrome)
+            {
+                Console.WriteLine(word + " is a palindrom");
+            }
+            else
+            {
+                Console.WriteLine(word + " is not a palindrom!!!");
+            }
+
+            // контрольна 12/01/16
+            /*
+            int[] arr = new int [10];
+            for (int i = 0; i < arr.Length; i++)
+            {
+                arr[i] = int.Parse(Console.ReadLine());
+                if (arr[i] == 0)
+                {
+                    break;
+                }
+            }
+            int sum = 0;
+            for (int i = 0; i < arr.Length; i++)
+                {
+                    sum += arr[i];
+                }
+            for (int j = 0; j < sum; j += 10)
+                {
+                    Console.Write(" " + j);
+                }
+            Console.WriteLine("\n The sum is {0}", sum);
+            }
+            */
         }
     }
 }

@@ -11,6 +11,21 @@ namespace ConsoleApplication___methods
 
         static void Main(string[] args)
         {
+            // вводимо і виводимо масив
+            /*
+            int[] arr5 = new int[3];
+            for (int i = 0; i < arr5.Length; i++)
+            {
+                arr5[i] = int.Parse(Console.ReadLine());
+                
+            }
+            foreach (var item in arr5)
+            {
+                Console.WriteLine(item.ToString());
+            }
+            */
+
+            /*
             // до 3-ї задачі
             int[] arr = { 1, 2, 3 };
             int sum1 = sumOfElem(arr);  //arr - те що передаємо в метод
@@ -34,6 +49,65 @@ namespace ConsoleApplication___methods
             int max;
             MaxMinArray(arr3, out max);
             Console.WriteLine(max);
+
+            CustomAbs(-6);
+
+            int x = -6;
+            int num = ReturnAbs(x);
+            Console.WriteLine(num);
+            */
+
+
+            // Methods - 1st homeTask
+            /*
+            int[] arr4 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, -1 };
+            Console.WriteLine("Enter n:");
+            int n = int.Parse(Console.ReadLine());
+            int temp = MethodsHomeTask.IsNumberInArray(arr4, n);
+
+            if (temp == -1)
+            {
+                Console.WriteLine("Your number is out of array");
+            }
+            else
+            {
+                Console.WriteLine("Index of your number is {0} ", temp);
+            }
+            */
+
+
+
+            //Methods - 2nd homeTask
+            /*
+            Console.WriteLine("Enter quantity of numbers");
+            int x = int.Parse(Console.ReadLine());
+            int[] arr = new int[x];
+            for (int i = 0; i < x; i++)
+            {
+                arr[i] = int.Parse(Console.ReadLine());
+            }
+            MethodsHomeTask.OutputText("Hello", arr);
+
+            MethodsHomeTask.OutputText("Hi!", 1, 2, 3, 4);
+            }
+            */
+
+            // Methods - 3rd HomeTask
+            // - чому "масивИ" і як перезаписувати??
+            /*
+            int[,] arr1 = new int[3, 2];
+            MethodsHomeTask.Progressia(arr1);
+
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine();
+                for (int j = 0; j < 2; j++)
+                {
+                    Console.Write(arr1[i, j] + "\t");
+                }
+            }
+            */
+
         }
         // 1. Створити метод, який повертає абсолютне значення числа
 
@@ -45,7 +119,16 @@ namespace ConsoleApplication___methods
             else
                 Console.WriteLine(num);
         }
-        */
+
+        //1.1
+        static int ReturnAbs(int num)
+        {
+            if (num < 0)
+                return (-num);
+            else
+                return num;
+        }
+        
 
         // 2. ------------
 
@@ -104,8 +187,12 @@ namespace ConsoleApplication___methods
             }
             Console.WriteLine("Max value is " + max);
         }
-        
+        */
 
 
     }
 }
+
+
+
+
